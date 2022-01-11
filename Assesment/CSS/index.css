@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    bottom: 0px;
+    
+}
+.logoimage,.companyimage,.sociallinks{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    background-color: black;
+}
+.companyimage{
+width: 600px;
+}
+
+.companyicon{
+    height: 78px;
+    padding-top: 8px;
+    position: absolute;
+}
+.logoicon{
+    height: 96px;
+    padding-left: 100px;
+    position: absolute;
+}
+.sociallinks{
+    width: 500px;
+}
+ul{
+    list-style: none;
+    margin: 30px;
+}
+.navlink:hover{
+    background-color: rgb(128, 121, 103);
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+      
+}
+.links{
+ 
+    float: right;
+    padding-right: 70px;    
+    background-color: black;
+}
+/* Header Properties */
+
+.Homelinks{
+    height: 100px;
+
+    margin-top: 100px;
+
+}
+.homebar{
+    text-decoration: none;
+    background-color: rgba(187, 184, 184, 0.055);
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.homelists{
+    display: inline;
+    margin:30px;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.homelinks{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.homelists:hover{
+    background-color: white;
+}
+.contentsection{
+    height: 450px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQALBp2ol0i-qxL4lmtBKMLeC8fCQU7qJaFQw&usqp=CAU);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   opacity: 0.5;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="CSS/registerform.css">
+    <script src="JavaScript/loginform.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="logoimage">
+            <img class="logoicon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHO6jafDBHPtQ4zpP518CGIGVpx94aSuGkmQ&usqp=CAU"
+                alt="">
+        </div>
+
+        <div class="companyimage">
+            <img class="companyicon" src="https://support.thoughtfocus.com/logo.php" alt="">
+        </div>
+        <div class="sociallinks">
+            <ul>
+                <li class="links"><a class="navlink" href="">Facebook</a></li>
+                <li class="links"><a class="navlink" href="">Twitter</a></li>
+                <li class="links"><a class="navlink" href="">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="registersection">
+
+        <div class="registerform">
+            <form onsubmit="return validateRegisterForm()" action="login.html" >
+                <h3
+                    style="text-align: center; background-color: #fff; color: rgb(114, 221, 43); font: size 29px; font-family:sans-serif;">
+                    Registerartion Form</h3>
+
+                <input type="text" id="firstname" placeholder="First Name" autocomplete="off" autofocus>
+                <span id="fmessage" style="color: red;"></span>
+                <input type="text" id="lastname" placeholder="Last Name" autocomplete="off" autofocus>
+                <span id="lmessage" style="color: red;"></span>
+                <input type="text" id="username" placeholder="User Name" autocomplete="off" autofocus>
+                <span id="umessage" style="color: red;"></span>
+                <input type="password" id="password" placeholder="Password" autofocus>
+                <span id="userpass" style="color: red;"></span> 
+                <input type="tel" id="phonebumber" placeholder="Mobile Number" pattern="[7-9]{1}[0-9]{9}" autofocus>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Address" autofocus></textarea>
+                <input  class="submitbutton" type="submit" value="Register">
+            </form>
+
+        </div>
+
+
+    </section>
+    <footer>
+        <h6 style="text-align: center ; color: white; padding-top: 25px; letter-spacing: 8px; font-size: larger;">All
+            Rights &copy;2022
+        </h6>
+    </footer>
+
+</body>
+
+</html>
+
+

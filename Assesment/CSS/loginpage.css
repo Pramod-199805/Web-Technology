@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    bottom: 0px;
+    
+}
+.logoimage,.companyimage,.sociallinks{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    background-color: black;
+}
+.companyimage{
+width: 600px;
+}
+
+.companyicon{
+    height: 78px;
+    padding-top: 8px;
+    position: absolute;
+}
+.logoicon{
+    height: 96px;
+    padding-left: 100px;
+    position: absolute;
+}
+.sociallinks{
+    width: 500px;
+}
+ul{
+    list-style: none;
+    margin: 30px;
+}
+.navlink:hover{
+    background-color: rgb(128, 121, 103);
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+      
+}
+.links{
+ 
+    float: right;
+    padding-right: 70px;    
+    background-color: black;
+}
+/* Nav Bar Properties */
+
+section{
+    margin: 0px;
+    height: 700px;
+    padding-top: 100px;
+
+}
+.loginform{
+    border: 2px solid black;
+    border-style: solid;
+    border-radius: 15px;
+    height: 390px;
+    width: 50%;
+    margin: 58px auto 0px auto;
+    box-shadow:white 2px;
+   
+}
+input{
+    background-color: white;
+    width: 251px;
+    height: 20px;
+    border-radius: 4px;
+    padding: 13px;
+   
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+button{
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: white;
+}
+.newreglink{
+    font-size: 13px;
+   color:black;  
+   text-decoration: none;
+     
+}
+.reglink{
+    padding-left: 200px;
+    text-decoration: none;
+}
+footer{
+   border: 2px solid black;
+   height: 100px;
+   background-color: black;
+}
+

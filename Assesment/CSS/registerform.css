@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    bottom: 0px;
+    
+}
+.logoimage,.companyimage,.sociallinks{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    background-color: black;
+}
+.companyimage{
+width: 600px;
+}
+
+.companyicon{
+    height: 78px;
+    padding-top: 8px;
+    position: absolute;
+}
+.logoicon{
+    height: 96px;
+    padding-left: 100px;
+    position: absolute;
+}
+.sociallinks{
+    width: 500px;
+}
+ul{
+    list-style: none;
+    margin: 30px;
+}
+.navlink:hover{
+    background-color: rgb(128, 121, 103);
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+      
+}
+.links{
+ 
+    float: right;
+    padding-right: 70px;    
+    background-color: black;
+}
+/* register form properties */
+.registersection{
+    height: 680px;
+    padding-top: 100px;
+    background-color: rgba(255, 255, 255, 0.432);
+
+}
+.registerform{
+    height: 600px;
+    width: 500px;
+    border: solid black 2px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px gray;
+   
+}
+textarea{
+    margin-left: 60px;
+    border: 2px solid;
+}
+
+ input{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    margin-left: 60px;
+}
+.submitbutton{
+    background-color: rgba(86, 230, 42, 0.788);
+    font-size: 15px;
+    margin-left: 80px;
+    border-radius: 25px;
+}
+.submitbutton:hover{
+    background-color: #fff;
+    
+}
+footer{
+    height: 80px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0);
+}

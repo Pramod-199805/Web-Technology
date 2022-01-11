@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="CSS/loginpage.css">
+    <script src="JavaScript/loginform.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="logoimage">
+            <img class="logoicon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHO6jafDBHPtQ4zpP518CGIGVpx94aSuGkmQ&usqp=CAU"
+                alt="">
+        </div>
+
+        <div class="companyimage">
+            <img class="companyicon" src="https://support.thoughtfocus.com/logo.php" alt="">
+        </div>
+        <div class="sociallinks">
+            <ul>
+                <li class="links"><a class="navlink" href="">Facebook</a></li>
+                <li class="links"><a class="navlink" href="">Twitter</a></li>
+                <li class="links"><a class="navlink" href="">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <section>
+
+        <div class=" loginform">
+            <form onsubmit="return validateLoginForm()" action="index.html">
+
+                <table class="loginform-table">
+                    <tr>
+                        <td> <label for=""> UserName:</label></td>
+                        <td><input type="text" name="username" id="uname" value="" autofocus autocomplete="off">
+                            <span id="usermessage" style="color: red;"> </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Password:</label></td>
+                        <td><input type="password" name="password" id="pass" value="">
+                            <span id="passwordmessage" style="color: red;"> </span>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button>Login</button></td>
+                    </tr>
+                </table>
+            </form>
+            <a href="registerform.html" class="reglink">New Register</a>
+        </div>
+    </section>
+
+    <footer>
+        <h6  style="text-align: center ; color: white; padding-top: 25px; letter-spacing: 8px; font-size: larger;">All Rights &copy;2022
+        </h6>
+    </footer>
+
+</body>
+
+</html>

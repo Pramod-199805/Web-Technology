@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Employee</title>
+    <link rel="stylesheet" href="CSS/addnewEmployee.css">
+    <script src="JavaScript/loginform.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="logoimage">
+            <a href="index.html"> <img class="logoicon"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHO6jafDBHPtQ4zpP518CGIGVpx94aSuGkmQ&usqp=CAU"
+                    alt=""></a>
+        </div>
+
+        <div class="companyimage">
+            <img class="companyicon" src="https://support.thoughtfocus.com/logo.php" alt="">
+        </div>
+        <div class="sociallinks">
+            <ul>
+                <li class="links"><a class="navlink" href="">Facebook</a></li>
+                <li class="links"><a class="navlink" href="">Twitter</a></li>
+                <li class="links"><a class="navlink" href="">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="Homelinks">
+        <ul class="homebar">
+            <li class="homelists"><a href="index.html" class="homelinks">Home</a></li>
+            <li class="homelists"><a href="view.html" class="homelinks">View</a></li>
+            <li class="homelists"><a href="" class="homelinks">Remove</a></li>
+            <li class="homelists"><a href="" class="homelinks">Search</a></li>
+        </ul>
+    </section>
+
+    <div class="addEmployee">
+        <form onsubmit="return employeeDetail()" action="">
+            <input type="text" id="empid" placeholder="Employee ID" autocomplete="off">
+            <span style="color: red;" id="idmessage"> </span>
+            <input type="text" id="empname" placeholder="Employee Name" autocomplete="off">
+            <span id="namemessage" style="color: red;"></span>
+            <input type="text" id="sal" placeholder="Salary" autocomplete="off">
+            <span id="salmessage" style="color: red;"></span>
+           
+            <select name="" id="dept" >
+                <option >--Select Department--</option>
+                <option >IT Department</option>
+                <option >HR Department</option>
+                <option >Admin Department</option>
+                <option >Account Department</option>
+            </select>
+            <select name="" id=skillset >
+                <option >--Select Skill--</option>
+                <option >Java</option>
+                <option >JavaScript</option>
+                <option >HTML</option>
+                <option >CSS</option>
+                <option >Angular</option>
+                <option >J2EE</option>
+            </select>
+            <input type="submit" value="Add" style="border-radius: 25px; background-color: rgb(47, 194, 28);">
+            <input  type="reset" value="clear" style="border-radius: 25px;  background-color: rgb(47, 194, 28)">
+        </form>
+        
+    </div>
+<footer id="copyright">
+    <h6  style="text-align: center ; color: white; padding-top: 25px; letter-spacing: 8px; font-size: larger;">All Rights &copy;2022
+    </h6>
+</footer>
+</body>
+
+</html>
